@@ -1,9 +1,9 @@
-import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <h1 className="text-8xl">Bob Test</h1>
+      <Header />
       <section>
         <div className="grid grid-cols-2 gap-4">
           <div className="bg-slate-500 rounded-xl p-4">
