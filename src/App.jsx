@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Gallery from "./components/Gallery";
 import { useState } from "react";
+import Table from "./components/Table";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -38,6 +39,11 @@ function App() {
         </div>
       </section>
       <Gallery />
+      <div className="flex justify-center">
+        <div className="p-4">
+          <Table />
+        </div>
+      </div>
     </>
   );
 }
