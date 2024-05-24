@@ -14,6 +14,12 @@ function App() {
           <div className="bg-slate-500 rounded-xl p-4">
             <h3>Testing</h3>
             <p>Some text</p>
+            <button
+              class="px-6 h-12 uppercase font-semibold tracking-wider border-2 border-black bg-teal-400 text-black"
+              type="submit"
+            >
+              Buy now
+            </button>
           </div>
         </div>
       </section>
