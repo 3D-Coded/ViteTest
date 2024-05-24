@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <Header title="Bob is cool" subtitle="There's just something about him" />
       <section>
         <div className="grid grid-cols-2 gap-4">
-          <div className="bg-slate-500 rounded-xl p-4">
+          <div className="bg-slate-500 rounded-xl p-4 flex justify-center">
             <h3>Testing</h3>
             <p>Some text</p>
           </div>
@@ -16,6 +17,7 @@ function App() {
           </div>
         </div>
       </section>
+      <Gallery />
     </>
   );
 }
