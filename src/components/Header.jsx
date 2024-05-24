@@ -1,8 +1,9 @@
-export default function Header() {
+export default function Header({ title, subtitle }) {
   return (
     <>
-      <div className="text-center text-8xl">
-        <h1>I am a Header</h1>
+      <div className="text-center text-8xl p-4">
+        <h1>{title}</h1>
+        <h3>{subtitle}</h3>
       </div>
     </>
   );
